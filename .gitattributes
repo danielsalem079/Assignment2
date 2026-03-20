@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<HTML>
+<HEAD>
+<title> this is a knitting website </title>
+</HEAD>
+<BODY style ="background-color:blue">
+<h1>Knitting Website </h1>
+<p style ="font-size:40px"; text-align:centre"> Mach is the month to support charity through Knitting </p>
+</BODY>
+</HTML>
