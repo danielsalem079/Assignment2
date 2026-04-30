@@ -1,8 +1,8 @@
-# Willow Brew Café Website
+#Cloudy BeansCafé Website
 
 ## Project overview
 
-This project is a responsive café website created for the Front-End Development assignment. The website presents Willow Brew Café, a fictional neighbourhood café offering coffee, cakes, light lunches, and table booking information.
+This website presents cloudy beans cafe wesbsite that will offer cakes,drinks and Free wifi.
 
 The website contains three pages:
 
@@ -14,7 +14,7 @@ The website contains three pages:
 
 ### Aims and objectives
 
-The aim of the website is to provide customers with clear information about the café and encourage them to visit or make a booking. The objectives are:
+The aim of the website is to provide customers with clear information about the café and encourage them to visit or make a booking The objectives are:
 
 - present the café brand using warm colours and accessible contrast
 - make the site easy to use on desktop, tablet, and mobile screens
@@ -58,8 +58,6 @@ The wireframes were revised during development to use a card-based layout becaus
 - Responsive layout using CSS Grid and media queries
 - Functional demo contact form with JavaScript confirmation message
 - User-controlled modal pop-up on the menu page
-- User-controlled audio element on the home page
-- Dynamic weather feature using the Open-Meteo API
 - Alternative text for all images
 - External links open in a new tab using `target="_blank"`
 - Clean project folder structure
@@ -75,25 +73,13 @@ cafe_assignment_done/
 │   ├── contact-cafe.svg
 │   ├── hero-cafe.svg
 │   └── menu-coffee.svg
-├── js/
-│   └── script.js
-├── pages/
-│   ├── contact.html
-│   └── menu.html
-├── docs/
-├── index.html
-└── README.md
-```
+
 
 ### Reflection
 
 During development, the main challenge was making sure that links to CSS, JavaScript, and images worked correctly across pages in different folders. This was solved by using relative paths carefully: the home page uses paths such as `css/style.css`, while pages inside the `pages` folder use paths such as `../css/style.css`.
 
-A warm café colour palette was chosen to match the topic and create a clear visual identity. CSS Grid was used because it makes the layout easier to control and allows the site to switch from multi-column cards on desktop to single-column content on smaller screens. JavaScript was used only where needed so that the code remains readable and easy to explain.
-
-### Deployment link
-
-GitHub Pages link: **Add your deployed website link here**
+A warm café colour palette was chosen to match the topic and create a clear visual identity. CSS Grid was used because it makes the layout easier to control and allows the site to switch from multi-column cards on desktop to single-column content on smaller screens.
 
 ## Testing
 
@@ -111,8 +97,6 @@ GitHub Pages link: **Add your deployed website link here**
 | Click close pop-up button | Pop-up closes | Pass |
 | Press play on audio | Audio plays only when user starts it | Pass |
 | Submit empty contact form | Browser shows required field validation | Pass |
-| Submit completed contact form | Confirmation message appears | Pass |
-| Weather API loads | Weather text updates dynamically | Pass, if internet is available |
 
 ### User story testing
 
@@ -132,25 +116,11 @@ GitHub Pages link: **Add your deployed website link here**
 | Form originally had no response after submission | Added JavaScript confirmation message |
 | Modal needed user control | Added open and close buttons |
 
-### Unresolved bugs
-
-The weather API requires an internet connection. If the user is offline or the API is unavailable, the site displays an error message instead of live weather data.
-
-### Automated testing
-
-The final website should be checked using:
-
-- W3C HTML Validator: https://validator.w3.org/
-- W3C CSS Validator: https://jigsaw.w3.org/css-validator/
-- Google Lighthouse in Chrome DevTools
-
-Add screenshots of the validation and Lighthouse results to the `docs` folder before final submission.
 
 Suggested Lighthouse results section:
 
 - Performance: Add score after testing
 - Accessibility: Add score after testing
-- Best Practices: Add score after testing
 - SEO: Add score after testing
 
 ## Version control
@@ -160,8 +130,6 @@ Git should be used throughout development. Example meaningful commit messages:
 - `Create basic cafe website structure`
 - `Add responsive CSS layout`
 - `Add menu and contact pages`
-- `Add form validation and modal interaction`
-- `Add README documentation and attribution`
 - `Fix image and stylesheet paths`
 
 ## Attribution
@@ -172,4 +140,3 @@ Git should be used throughout development. Example meaningful commit messages:
 - HTML form structure adapted from W3Schools: https://www.w3schools.com/html/html_forms.asp
 - Dynamic weather data from Open-Meteo: https://open-meteo.com/
 
-All adapted code was modified for this café website, including the content, layout, colours, accessibility features, and interaction behaviour.
