@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloudy Beans Café</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Cloudy Beans Café</a>
+      <a href="pages/menu.html">Menu</a>
+      <a href="pages/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h1>Welcome to Cloudy Beans Café</h1>
+      <p>We are a small local café serving fresh coffee, cakes, and toasties.</p>
+      <a class="btn" href="pages/menu.html">View Menu</a>
+
+      <img src="images/hero-cafe.svg" alt="Illustration of a café counter">
+    </section>
+
+    <section>
+      <h2>About Us</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Coffee</h3>
+          <p>We serve hot coffee made from quality beans.</p>
+        </div>
+
+        <div class="card">
+          <h3>Food</h3>
+          <p>We sell cakes, toasties, and snacks.</p>
+        </div>
+
+        <div class="card">
+          <h3>Study Space</h3>
+          <p>We have free Wi-Fi and charging points.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Weather</h2>
+      <p id="weather-output">Loading weather...</p>
+    </section>
+
+    <section>
+      <h2>Café Sound</h2>
+      <p>Press play to hear a short sound.</p>
+
+      <audio controls>
+        <source src="images/cafe-chime.wav" type="audio/wav">
+        Your browser does not support audio.
+      </audio>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Cloudy Beans Café</p>
+    <p><a href="pages/contact.html">Book a table</a></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>

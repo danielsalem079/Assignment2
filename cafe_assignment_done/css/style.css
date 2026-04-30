@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5e6d3;
+  color: #2b1b12;
+  margin: 0;
+}
+
+header {
+  background-color: #4b2e1f;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+  color: #4b2e1f;
+}
+
+img {
+  width: 100%;
+  max-width: 450px;
+}
+
+button,
+.btn {
+  background-color: #6b4f3a;
+  color: white;
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #9c6b43;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background-color: #f0d2b0;
+  padding: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #4b2e1f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+}
+
+audio {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
